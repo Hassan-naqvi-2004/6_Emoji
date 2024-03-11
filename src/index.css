@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  font-family: sans-serif;
+}
+nav{
+  background-color: rgb(37, 192, 99);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:400px;
+}
+.container input{
+  background-color:rgb(103, 249, 162) ;
+  padding: 12px;
+  border: 1px solid grey;
+  width: 450px;
+  border-radius: 30px;
+}
+.main{
+  padding: 60px;
+  background-color: rgb(128, 250, 177);
+}
+.text{
+   display: flex;
+   justify-content: center;
+   gap: 80px;
+   align-items: center;
+   padding: 10px;
+}
+.text p{
+  background-color: rgb(14, 217, 95);
+  width: 300px;
+  padding: 25px 0;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+.text h3{
+  color: rgb(5, 195, 81);
+}
